@@ -1,14 +1,10 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
     "moduleResolution": "node",
-    "strict": true,
-    "sourceMap": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "lib": ["ESNext","DOM"],
+    "strict": true,
     "types": ["vitest/globals"]
   },
-  "include": ["src/**/*.ts","test/**/*.spec.ts"]
+  "include": ["src","test"],
+  "exclude": ["node_modules"]
 }

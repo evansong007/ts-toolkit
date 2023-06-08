@@ -1,8 +1,8 @@
 import { main } from "../../src/EventBus/demo";
 
-describe('demo', () => {
-    it('test1', () => {
+describe('event bus', () => {
+    it('demo has been defined', () => {
         main()
-        expect("2").not.toBeNull()
+        expect(main).toBeDefined()
     })
 })

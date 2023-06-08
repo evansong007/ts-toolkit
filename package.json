@@ -1,0 +1,23 @@
+{
+  "name": "typescript-toolkit",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@vitest/coverage-c8": "^0.32.0",
+    "@vitest/ui": "^0.32.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vitest": "^0.32.0"
+  },
+  "engines": {
+    "node": "18.16.0"
+  }
+}
